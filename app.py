@@ -21,7 +21,7 @@ dropoff_latitude = st.number_input("Dropoff Latitude", value=40.748817)
 passenger_count = st.number_input("Passenger Count", min_value=1, max_value=6, value=1)
 
 # API URL
-api_url = 'https://taxifare.lewagon.ai/predict'
+api_url = 'https://taxifare-208790908762.europe-west1.run.app'
 
 # Prediction logic
 if st.button("Get Fare Prediction"):
